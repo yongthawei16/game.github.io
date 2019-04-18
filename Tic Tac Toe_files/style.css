@@ -1,0 +1,47 @@
+
+
+#gameZone {
+    text-align: center;
+
+}
+
+#motherBoard {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#board {
+    height: 380px;
+    margin: 30px;
+}
+
+#board div {    
+    float: left;
+    height: 120px;
+    width: 120px;
+    box-sizing: border-box;
+    border: solid 3px black;
+    margin: 3px;
+    font-size: 3em;
+    text-align: center;
+    line-height: 120px;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+#board div:nth-child(3n + 1) {
+    clear: both;
+}
+
+#clear {
+    clear: both;
+}
+
+#winningStatement {
+    color: black;
+}
